@@ -156,6 +156,6 @@ public class StaticStepDefinition {
 
 	@Then("Click Save and verify the phone number")
 	public void click_save_and_verify_the_phone_number() {
-		driver.findElement(By.xpath("(//button[text()='Save'])[2]")).click();
+		driver.findElement(By.xpath("//button[text()='Save']")).click();
 	}
 }
